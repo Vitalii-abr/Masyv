@@ -46,7 +46,7 @@ cars.forEach(num => console.log(num ** 3));
 //
 const index = cars.findIndex(num => num ** 2 === 100);
 if (index !== -1) {
-  cars.splise(index, 1);
+  cars.splice(index, 1);
   console.log('cars :>> ', cars);
 }
 
