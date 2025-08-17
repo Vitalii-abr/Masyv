@@ -48,8 +48,6 @@ const index = cars.findIndex(num => num ** 2 === 100);
 if (index !== -1) {
   cars.splise(index, 1);
   console.log('cars :>> ', cars);
-} else {
-  
 }
 
 //
